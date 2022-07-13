@@ -5,7 +5,7 @@
     --font-primary: 'Poppins', sans-serif;
     --color-black: #2d3142;
     --color-grey: #bfc0c0;
-    --color-grey-light: #f1faee;
+    --color-grey-light: rgba(100, 100, 150, 0.1);
     --color-white: #ffffff;
     --color-blue: #118ab2;
     --shadow: 0 0.1rem 0.4rem var(--color-grey);
