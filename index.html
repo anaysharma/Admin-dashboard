@@ -11,146 +11,170 @@
 	<nav class="navbar">
 		<h2><img src="/assets/icons/apps.svg">Dashboard</h2>
 		<ul class="nav-list">
-			<li><img src="/assets/icons/home.svg">Home</li>
-			<li><img src="/assets/icons/user.svg">Profile</li>
-			<li><img src="/assets/icons/envelope.svg">Messages</li>
-			<li><img src="/assets/icons/clock-five.svg">History</li>
-			<li><img src="/assets/icons/checkbox.svg">Tasks</li>
-			<li><img src="/assets/icons/users.svg">Community</li>
-			<span> </span>
-			<li><img src="/assets/icons/settings.svg">Settings</li>
-			<li><img src="/assets/icons/heart.svg">Support</li>
-			<li><img src="/assets/icons/lock-alt.svg">Privacy</li>
+			<li class="nav-list-item"><img src="/assets/icons/home.svg">Home</li>
+			<li class="nav-list-item"><img src="/assets/icons/user.svg">Profile</li>
+			<li class="nav-list-item"><img src="/assets/icons/envelope.svg">Messages</li>
+			<li class="nav-list-item"><img src="/assets/icons/clock-five.svg">History</li>
+			<li class="nav-list-item"><img src="/assets/icons/checkbox.svg">Tasks</li>
+			<li class="nav-list-item"><img src="/assets/icons/users.svg">Community</li>
+			<li class="spacer"></li>
+			<li class="nav-list-item"><img src="/assets/icons/settings.svg">Settings</li>
+			<li class="nav-list-item"><img src="/assets/icons/heart.svg">Support</li>
+			<li class="nav-list-item"><img src="/assets/icons/lock-alt.svg">Privacy</li>
 		</ul>
+		<p class="attr">designed by Anay Sharma</p>
 	</nav>
 	<div class="main">
 		<div class="header">
-			<h4 class="hi">Hi There!<h3 class="user-name">Anay (@anay87)</h3></h4>			
-			<div class="search-bar"><img src="/assets/icons/search.svg"></div>
-			<a href="https://www.flaticon.com/free-icons/user" title="user icons"><img src="/assets/icons/user.png"></a>
-			<a href=""><img src="/assets/icons/bell.svg"></a>
-			<a href=""><img src="/assets/icons/add.svg"></a>
-			<a href=""><img src="/assets/icons/cloud-upload-alt.svg"></a>
-			<a href=""><img src="/assets/icons/share.svg"></a>
+			<div class="user-hi">
+				<h4 class="hi">Hi There!</h4>
+				<h3 class="user-name">Anay Sharma</h3>	
+			</div>
+			<div class="search-bar">
+				<img src="/assets/icons/search.svg">
+				<input type="text" name="">
+			</div>
+			<div class="nav-actions">
+				<a href=""><img src="/assets/icons/bell.svg"></a>
+				<a href=""><img src="/assets/icons/add.svg"></a>
+				<a href=""><img src="/assets/icons/cloud-upload-alt.svg"></a>
+				<a href=""><img src="/assets/icons/share.svg"></a>
+				<a href=""><img src="/assets/icons/user.png" class="img-user"></a>
+			</div>
 		</div>
 		<div class="cards">
 			<div class="project-cards">
-				<h2 class="projects-heading"></h2>
-				<div class="project">
-					<h4>Super Cool Project</h4>
-					<p>this is a super cool project i made using technologies that hasn't been invented yet.
-					<br>this project is for super cool persons like you, not me, I'm super duper cool, I make these projects.</p>
-					<span class="card-buttons">
-						<img src="/assets/icons/star.svg">
-						<img src="/assets/icons/eye.svg">
-						<img src="/assets/icons/upload.svg">
-					</span>
-				</div>
-				<div class="project">
-					<h4>Cool Project</h4>
-					<p>this is a less super cool project i made using technologies that are very new.
-					<br>this project is for cool persons like you, not me, I'm super duper cool, I make these projects so you can enjoy them.</p>
-					<span class="card-buttons">
-						<img src="/assets/icons/star.svg">
-						<img src="/assets/icons/eye.svg">
-						<img src="/assets/icons/upload.svg">
-					</span>
-				</div>
-				<div class="project">
-					<h4>Less Cool Project</h4>
-					<p>this project is not that cool, but its cool because I made it, just kidding, its not cool at all.
-					<br>this project is not for me, can't be me anyway, but you can still enjoy it, if only you can, can you?</p>
-					<span class="card-buttons">
-						<img src="/assets/icons/star.svg">
-						<img src="/assets/icons/eye.svg">
-						<img src="/assets/icons/upload.svg">
-					</span>
-				</div>
-				<div class="project">
-					<h4>Infinite Money App</h4>
-					<p>You guessed it right, its a Unlimited money app, its makes money rain, just open it and enjoy.
-					<br>this project is exactly for persons like you, because you need money and I love you.</p>
-					<span class="card-buttons">
-						<img src="/assets/icons/star.svg">
-						<img src="/assets/icons/eye.svg">
-						<img src="/assets/icons/upload.svg">
-					</span>
-				</div>
-				<div class="project">
-					<h4>Free Infinite Money Maker</h4>
-					<p>this is a infinite money maker app, but this time its free, you don't have to sell your family or soul this time. haha, got it? yeah, you're right, you had to sell your soul in previous app, what? you thought you gonna get infinite money from god?
-					<br>this project is for persons who got no life, .... like me.</p>
-					<span class="card-buttons">
-						<img src="/assets/icons/star.svg">
-						<img src="/assets/icons/eye.svg">
-						<img src="/assets/icons/upload.svg">
-					</span>
-				</div>
-				<div class="project">
-					<h4>Another Super Cool Project</h4>
-					<p>Another super cool project i made using technologies that will be invented on other planet.
-					<br>this project is for everyone, everyone is super cool, unlike you, haha gotchu.</p>
-					<span class="card-buttons">
-						<img src="/assets/icons/star.svg">
-						<img src="/assets/icons/eye.svg">
-						<img src="/assets/icons/upload.svg">
-					</span>
+				<h2 class="projects-heading">Projects</h2>
+				<div class="card-layout">
+					<div class="project">
+						<div class="accent"></div>
+						<div class="project-info">
+							<h5>Super Cool Project</h5>
+							<p>this is a super cool project i made using technologies that hasn't been invented yet.
+							<br>this project is for super cool persons like you.</p>
+							<span class="card-buttons">
+								<img src="/assets/icons/star.svg">
+								<img src="/assets/icons/eye.svg">
+								<img src="/assets/icons/upload.svg">
+							</span>
+						</div>
+					</div>
+					<div class="project">
+						<div class="accent"></div>
+						<div class="project-info">
+							<h5>Cool Project</h5>
+							<p>this is a less super cool project i made using technologies that are very new.
+							<br>I make these projects so you can enjoy them.</p>
+							<span class="card-buttons">
+								<img src="/assets/icons/star.svg">
+								<img src="/assets/icons/eye.svg">
+								<img src="/assets/icons/upload.svg">
+							</span>
+						</div>
+					</div>
+					<div class="project">
+						<div class="accent"></div>
+						<div class="project-info">
+							<h5>Less Cool Project</h5>
+							<p>this project is not that cool, but its cool because I made it, just kidding, its not cool at all.
+							<br>but you can still enjoy it, can you?</p>
+							<span class="card-buttons">
+								<img src="/assets/icons/star.svg">
+								<img src="/assets/icons/eye.svg">
+								<img src="/assets/icons/upload.svg">
+							</span>
+						</div>
+					</div>
+					<div class="project">
+						<div class="accent"></div>
+						<div class="project-info">
+							<h5>Infinite Money App</h5>
+							<p>You guessed it right, its a Unlimited money app, its makes money rain, just open it and enjoy.
+							<br>this project is exactly for persons like you, because you need money and I love you.</p>
+							<span class="card-buttons">
+								<img src="/assets/icons/star.svg">
+								<img src="/assets/icons/eye.svg">
+								<img src="/assets/icons/upload.svg">
+							</span>
+						</div>
+					</div>
+					<div class="project">
+						<div class="accent"></div>
+						<div class="project-info">
+							<h5>Free Infinite Money Maker</h5>
+							<p>this is a infinite money maker app, but this time its free, you don't have to sell your family or soul this time. haha, got it?</p>
+							<span class="card-buttons">
+								<img src="/assets/icons/star.svg">
+								<img src="/assets/icons/eye.svg">
+								<img src="/assets/icons/upload.svg">
+							</span>
+						</div>
+					</div>
+					<div class="project">
+						<div class="accent"></div>
+						<div class="project-info">
+							<h5>Another Super Cool Project</h5>
+							<p>Another super cool project i made using technologies that will be invented on other planet.
+							<br>this project is for everyone, everyone is super cool, unlike you, haha gotchu.</p>
+							<span class="card-buttons">
+								<img src="/assets/icons/star.svg">
+								<img src="/assets/icons/eye.svg">
+								<img src="/assets/icons/upload.svg">
+							</span>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="info-cards">
-				<div class="announcements">
-					<h4>Announcements</h4>
-					<div class="announcement-list-box">
-						<ul class="announcement-list">
-							<li>
-								<h4>site maintenance</h4>
-								<p>In unde natus aut iure voluptas et tempore corrupti! Ut dolor sequi ex dolor inventore eos quam sapiente.</p>
-							</li>
-							<li>
-								<h4>Community activity</h4>
-								<p>Ut enim ratione non natus praesentium et molestiae doloremque. Id incidunt consequatur et temporibus dolor sit error quia quo repudiandae quia.</p>
-							</li>
-							<li>
-								<h4>Updated Privacy Policy</h4>
-								<p>Et unde aspernatur ut placeat earum cum facilis itaque. Est reprehenderit accusantium eum aperiam veniam 33 asperiores velit et praesentium autem vel animi repellat aut minus nostrum!</p>
-							</li>
-						</ul>
-					</div>
+				<h5 class="right-cards">Announcements</h5>
+				<div class="announcement-list-box">
+					<ul class="announcement-list">
+						<li>
+							<h5>site maintenance</h5>
+							<p>In unde natus aut iure voluptas et tempore corrupti! Ut dolor sequi ex dolor inventore eos quam sapiente.</p>
+						</li>
+						<li>
+							<h5>Community activity</h5>
+							<p>Id incidunt consequatur et temporibus dolor sit error quia quo repudiandae quia.</p>
+						</li>
+						<li>
+							<h5>Updated Privacy Policy</h5>
+							<p>Et unde aspernatur ut placeat earum cum facilis itaque.</p>
+						</li>
+					</ul>
 				</div>
-				<div class="trending">
-					<h4>Trending</h4>
-					<div class="trends-card">
-						<ul class="tend-list">
-							<li>
-								<img src="/assets/icons/man.png">
-								<p>
-									<h6>@Josh</h6>
-									world peace builder
-								</p>
-							</li>
-							<li>
-								<img src="/assets/icons/girl.png">
-								<p>
-									<h6>@Anna</h6>
-									super cool project
-								</p>
-							</li>
-							<li>
-								<img src="/assets/icons/teenager.png">
-								<p>
-									<h6>@Cristine</h6>
-									life changing app
-								</p>
-							</li>
-							<li>
-								<img src="/assets/icons/boy.png">
-								<p>
-									<h6>@Peter</h6>
-									Easy to use
-								</p>
-							</li>
-						</ul>
-					</div>
+				<h5 class="right-cards trends-title">Trending</h5>
+				<div class="trends-card">
+					<ul class="trend-list">
+						<li>
+							<img class="trends-user" src="/assets/icons/man.png">
+							<div>
+								<h6>@Josh</h6>
+								<p>world peace builder</p>
+							</div>
+						</li>
+						<li>
+							<img class="trends-user" src="/assets/icons/girl.png">
+							<div>
+								<h6>@Anna</h6>
+								<p>super cool project</p>
+							</div>
+						</li>
+						<li>
+							<img class="trends-user" src="/assets/icons/teenager.png">
+							<div>
+								<h6>@Cristine</h6>
+								<p>life changing app</p>
+							</div>
+						</li>
+						<li>
+							<img class="trends-user" src="/assets/icons/boy.png">
+							<div>
+								<h6>@Peter</h6>
+								<p>Easy to use</p>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
